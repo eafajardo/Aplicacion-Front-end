@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor del header */
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 200px; /* Ajusta la altura del header según lo que necesites */
+    background: white;
+    justify-content: space-between;
+    padding: 10px 40px; /* Ajusta el padding para centrar mejor */
+}
+
+
+.logo {
+    height: 200px; /* Ajusta este valor para que el logo no sea demasiado grande */
+    width: auto; /* Mantiene la proporción original de la imagen */
+    max-height: 100%; /* Evita que sobrepase la barra */
+    display: flex;
+}
+
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #ece6f2;
+    padding: 15px 20px; /* Aumento del tamaño */
+    border-radius: 50px;
+    width: 400px; /* Más ancho */
+    justify-content: center;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    flex-grow: 1;
+    font-size: 28px; /* Texto más grande */
+}
+
+.search-bar i {
+    color: #333;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+/* Botón de registro */
+.register-btn {
+    background: #751b36;
+    color: white;
+    border: none;
+    padding: 12px 45px; /* Más grande */
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 24px; /* Texto más grande */
+    justify-content: center;
+}
+
+.register-btn:hover {
+    background: #5a1529;
+}
+
+/* Contenedor de iconos */
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre los iconos */
+    justify-content: flex-end;
+    
+}
+
+.icons a {
+    text-decoration: none; /* Quita subrayado del enlace */
+   
+}
+
+/* Estilos comunes para todos los íconos */
+.fa-cart-shopping {
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+}
+
+.fa-user {
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+}
+
+.fa-house {
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+}
+
+
+.icons i:hover {
+    color: #555; /* Cambia de color al pasar el mouse */
+}
+
+
+/*SECCION DE 2*/
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #020101;
+    padding: 20px 20px;
+}
+
+
+.navbar a:hover {
+    background: #2b18d3;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    width: 100%; /* Ocupa todo el ancho */
+    background: black; /* Asegura que el fondo se mantenga */
+    padding: 10px 0; /* Espaciado superior e inferior */
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    border: 2px solid white; /* Borde blanco alrededor de cada enlace */
+    margin: 5px; /* Espaciado entre los elementos */
+    border-radius: 5px; /* Esquinas redondeadas */
+}
+/*SECCION DE 3*/
+
+.form-login{
+	width: 400px;
+	height: 340px;
+	background: rgba(255, 255, 255, 0.4);
+	margin: auto;
+	margin-top: 180px;
+	box-shadow: 7px 13px 37px #000;
+	padding: 20px 30px;
+	border-top: 4px solid #030b74;
+	color: #030303;
+}
+.form-login h5 {
+	margin: 0;
+	text-align: center;
+	height: 40px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid;
+	font-size: 20px;
+}
+.controles {
+	width: 100%;
+	border: 1px solid #030b74;
+	margin-bottom: 15px;
+	padding: 11px 10px;
+	background: 252323;
+	font-size: 14px;
+	font-weight: bold;
+}
+.botones{
+	width: 100%;
+	height: 40px;
+	background: #030b74;
+	border: none;
+	color: #ffffff;
+	margin-bottom: 16px;
+}
+.form-login p{
+	height: 40px;
+	text-decoration: none;
+	font-size: 14px;
+}
+.form-login a {
+	color: blueviolet;
+	text-decoration: none;
+	font-size: 14px;
+}
+.form-login a:hover {
+	text-decoration: underline;
+}
+

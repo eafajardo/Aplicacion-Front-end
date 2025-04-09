@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECZD - Tienda de Tecnología</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="P.Lapt.css">
+</head>
+<body class="body1">
+  
+  <!-- Header con logo, búsqueda, registro y usuario/carrito -->
+<div class="header">
+    <div class="logo">
+      <img src="img/Logo_ECZD.png" alt="logo">
+    </div>
+
+    <div class="search-bar">
+      <i class="fa-solid fa-bars"></i>
+      <input type="text" placeholder="Buscar">
+      <i class="fa-solid fa-search"></i>
+    </div>
+
+    <a href="http://localhost/proyecto_edwin/Sesion.php">
+      <button class="register-btn">Iniciar Sesión</button>
+    </a>
+
+    <div class="icons"> 
+        <a href="perfil.html"><i class="fa-solid fa-user"></i></a>
+        <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+</div>
+
+  <!-- Sección 2: navbar -->
+  <section class="section_2">
+    <header class="header1">
+      <nav class="navbar">
+        <a href="http://localhost/Proyecto_edwin/#">INICIO</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_Gam.html">GAMER</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_mos.html">MOUSE</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_Tecl.html">TECLADOS</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_Monit.html">MONITORES</a>
+      </nav>
+    </header>
+  </section>
+
+  <!-- Sección 3: filtros y productos -->
+  <div class="contenedor-principal">
+    <aside class="barra-lateral">
+      <div class="filtro-precio">
+        <h1>Precio</h1>
+        <div class="rango-precio">
+          <span>$0 - $100</span>
+          <input type="range" min="0" max="100" value="100">
+        </div>
+      </div>
+
+      <div class="filtro-color">
+        <h1>Color</h1>
+        <ul>
+          <li><label><input type="checkbox" checked> Negro</label></li>
+          <li><label><input type="checkbox" checked> Mate</label></li>
+          <li><label><input type="checkbox"> Plateado</label></li>
+        </ul>
+      </div>
+
+      <div class="filtro-tamano">
+        <h1>Tamaño</h1>
+        <ul>
+          <li><label><input type="checkbox" checked> Pequeña</label></li>
+          <li><label><input type="checkbox" checked> Mediana</label></li>
+          <li><label><input type="checkbox" checked> Grande</label></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="contenedor-productos">
+      <div class="barra-superior">
+        <input type="search" placeholder="Buscar">
+        <button>Buscar</button>
+        <div class="botones-orden">
+          <button class="activo">Nueva</button>
+          <button>Mayor Precio</button>
+          <button>Menor Precio</button>
+          <button>Populares</button>
+        </div>
+      </div>
+
+      <div class="product-grid">
+        <div class="product">
+          <img src="img/COM 2.webp" alt="Lenovo IdeaPad 1">
+          <p>Lenovo IdeaPad 1</p>
+          <span>$330</span>
+        </div>
+        <div class="product">
+          <img src="img/COM 3.jpeg" alt="HP Portátil">
+          <p>HP Portátil</p>
+          <span>$450</span>
+        </div>
+        <div class="product">
+          <img src="img/COM 4.jpeg" alt="Lenovo ThinkBook 15">
+          <p>Lenovo ThinkBook 15</p>
+          <span>$650</span>
+        </div>
+        <div class="product">
+          <img src="img/COM 5.jpeg" alt="Acer Nitro V">
+          <p>Acer Nitro V</p>
+          <span>$1000</span>
+        </div>
+        <div class="product">
+          <img src="img/COM 6.jpeg" alt="Acer Swift 14">
+          <p>Acer Swift 14</p>
+          <span>$950</span>
+        </div>
+        <div class="product">
+          <img src="img/Imagen de WhatsApp 2025-04-05 a las 22.41.54_6928584e.jpg" alt="Lenovo LOQ 9na Gen (15" Intel) con RTX™ 4050">
+          <p>Acer Swift 14</p>
+          <span>$4499</span>
+        </div>
+        <div class="product">
+          <img src="img/Imagen de WhatsApp 2025-04-05 a las 22.43.52_0f86e3ed.jpg" alt="Legion Pro 7i 16 9na - GenEclipse Black">
+          <p>"Legion Pro 7i 16 9na - GenEclipse Black"</p>
+          <span>$1729</span>
+        </div>
+        <div class="product">
+          <img src="img/Imagen de WhatsApp 2025-04-05 a las 22.45.00_0c511b47.jpg" alt="Asus Tuf Gaming A15 Amd Ryzen">
+          <p>Asus Tuf Gaming A15 Amd Ryzen</p>
+          <span>$3899</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>

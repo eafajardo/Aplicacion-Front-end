@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor del header */
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 200px; /* Ajusta la altura del header según lo que necesites */
+    background: white;
+    justify-content: space-between;
+    padding: 10px 40px; /* Ajusta el padding para centrar mejor */
+}
+
+
+.logo {
+    height: 200px; /* Ajusta este valor para que el logo no sea demasiado grande */
+    width: auto; /* Mantiene la proporción original de la imagen */
+    max-height: 100%; /* Evita que sobrepase la barra */
+    display: flex;
+}
+
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #ece6f2;
+    padding: 15px 20px; /* Aumento del tamaño */
+    border-radius: 50px;
+    width: 400px; /* Más ancho */
+    justify-content: center;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    flex-grow: 1;
+    font-size: 28px; /* Texto más grande */
+}
+
+.search-bar i {
+    color: #333;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+/* Botón de registro */
+.register-btn {
+    background: #751b36;
+    color: white;
+    border: none;
+    padding: 12px 45px; /* Más grande */
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 24px; /* Texto más grande */
+    justify-content: center;
+}
+
+.register-btn:hover {
+    background: #5a1529;
+}
+
+/* Contenedor de iconos */
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre los iconos */
+    justify-content: flex-end;
+}
+
+/* Ícono de usuario */
+.fa-user {
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Ícono de carrito */
+.fa-cart-shopping {
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+}
+
+
+/*SECCION DE 2*/
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #020101;
+    padding: 20px 20px;
+}
+
+
+.navbar a:hover {
+    background: #2b18d3;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    width: 100%; /* Ocupa todo el ancho */
+    background: black; /* Asegura que el fondo se mantenga */
+    padding: 10px 0; /* Espaciado superior e inferior */
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    border: 2px solid white; /* Borde blanco alrededor de cada enlace */
+    margin: 5px; /* Espaciado entre los elementos */
+    border-radius: 5px; /* Esquinas redondeadas */
+}
+
+/* seccion 3*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('../img/fondo_ri.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Calibri', sans-serif;
+}
+
+.form-registro {
+	width: 400px;
+	max-width: 90%;
+	background: rgba(255, 255, 255, 0.9);
+	padding: 30px;
+	margin: 100px auto;
+	border-radius: 10px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+	color: #333;
+}
+
+.form-registro h4 {
+	font-size: 24px;
+	color: #222;
+	margin-bottom: 25px;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.controles {
+	width: 100%;
+	background: #f5f5f5;
+	padding: 12px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	color: #333;
+	transition: 0.3s;
+}
+
+.controles:focus {
+	outline: none;
+	border-color: #3caea3;
+	box-shadow: 0 0 5px #3caea3;
+}
+
+.form-registro p {
+	text-align: center;
+	font-size: 16px;
+	color: #555;
+	margin-top: 10px;
+}
+
+.form-registro a {
+	color: #7f00ff;
+	text-decoration: none;
+}
+
+.form-registro a:hover {
+	text-decoration: underline;
+}
+
+.boton {
+	width: 100%;
+	background: #3caea3;
+	border: none;
+	padding: 12px;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background 0.3s;
+}
+
+.boton:hover {
+	background: #329c92;
+}

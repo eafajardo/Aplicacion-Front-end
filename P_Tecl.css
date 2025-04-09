@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor del header */
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 200px; /* Ajusta la altura del header según lo que necesites */
+    background: white;
+    justify-content: space-between;
+    padding: 10px 40px; /* Ajusta el padding para centrar mejor */
+}
+
+
+.logo {
+    height: 200px; /* Ajusta este valor para que el logo no sea demasiado grande */
+    width: auto; /* Mantiene la proporción original de la imagen */
+    max-height: 100%; /* Evita que sobrepase la barra */
+    display: flex;
+}
+
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #ece6f2;
+    padding: 15px 20px; /* Aumento del tamaño */
+    border-radius: 50px;
+    width: 400px; /* Más ancho */
+    justify-content: center;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    flex-grow: 1;
+    font-size: 28px; /* Texto más grande */
+}
+
+.search-bar i {
+    color: #333;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+/* Botón de registro */
+.register-btn {
+    background: #751b36;
+    color: white;
+    border: none;
+    padding: 12px 45px; /* Más grande */
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 24px; /* Texto más grande */
+    justify-content: center;
+}
+
+.register-btn:hover {
+    background: #5a1529;
+}
+
+/* Contenedor de iconos */
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre los iconos */
+    justify-content: flex-end;
+    
+}
+
+.icons a {
+    text-decoration: none; /* Quita subrayado del enlace */
+   
+}
+
+/* Estilos comunes para todos los íconos */
+.fa-cart-shopping {
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+}
+
+.fa-user {
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+}
+
+.fa-house {
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+}
+
+
+.icons i:hover {
+    color: #555; /* Cambia de color al pasar el mouse */
+}
+
+
+/*SECCION DE 2*/
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #020101;
+    padding: 20px 20px;
+}
+
+
+.navbar a:hover {
+    background: #2b18d3;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    width: 100%; /* Ocupa todo el ancho */
+    background: black; /* Asegura que el fondo se mantenga */
+    padding: 10px 0; /* Espaciado superior e inferior */
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    border: 2px solid white; /* Borde blanco alrededor de cada enlace */
+    margin: 5px; /* Espaciado entre los elementos */
+    border-radius: 5px; /* Esquinas redondeadas */
+}
+
+/*seccion3*/
+
+.body1 {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f1;
+    color: #000000;
+}
+
+.contenedor-principal {
+    display: flex;
+    max-width: 2200px;
+    margin: 100px auto;
+    padding: 80px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(219, 10, 10, 0.1);
+}
+
+.barra-lateral {
+    width: 200px;
+    padding-right: 20px;
+    border-right: 2px solid #cec6c6;
+}
+
+.barra-lateral h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.filtro-precio, .filtro-color, .filtro-tamano {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+.rango-precio {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.barra-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.barra-lateral li {
+    margin-bottom: 10px;
+    
+    
+}
+
+.barra-lateral label {
+    display: block;
+    cursor: pointer;
+}
+
+.contenedor-productos {
+    flex-grow: 1;
+    padding-left: 90px;
+}
+
+.barra-superior {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.barra-superior input[type="search"] {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-right: 180px;
+    flex-grow: 1;
+}
+
+.barra-superior button {
+    padding: 9px 15px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.barra-superior button:hover {
+    background-color: #ddd;
+    border: 1px solid #020303;
+
+}
+
+.botones-orden button {
+    padding: 8px 12px;
+    border: 1px solid #070808;
+    border-radius: 4px;
+    background-color: #000000;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.botones-orden button.activo {
+    background-color:#000000;
+    color: white;
+    border-color: #000000;
+}
+
+.botones-orden button:hover {
+    background-color: #ddd;
+}
+
+
+
+/*Seccion de imagenes*/
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cambiado a 4 columnas */
+    gap: 20px;
+    max-width: 1200px; /* Aumentado para ajustarse a 4 columnas */
+    margin: 0 auto;
+  }
+  
+  .product {
+    background: rgb(243, 243, 243);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .product p {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .product span {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECZD - Tienda de Tecnología</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="P_Mos.css">
+</head>
+<body class="body1">
+  
+  <!-- Header con logo, búsqueda, registro y usuario/carrito -->
+<div class="header">
+    <div class="logo">
+      <img src="img/Logo_ECZD.png" alt="logo">
+    </div>
+
+    <div class="search-bar">
+      <i class="fa-solid fa-bars"></i>
+      <input type="text" placeholder="Buscar">
+      <i class="fa-solid fa-search"></i>
+    </div>
+
+    <a href="http://localhost/proyecto_edwin/Sesion.php">
+      <button class="register-btn">Iniciar Sesión</button>
+    </a>
+
+    <div class="icons"> 
+        <a href="perfil.html"><i class="fa-solid fa-user"></i></a>
+        <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+</div>
+
+  <!-- Sección 2: navbar -->
+  <section class="section_2">
+    <header class="header1">
+      <nav class="navbar">
+        <a href="http://localhost/Proyecto_edwin/">INICIO</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_Lapt.html#">LAPTOPS</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_Gam.html#">GAMER</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_mos.html">MOUSE</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_Monit.html">MONITORES</a>
+      </nav>
+    </header>
+  </section>
+
+  <!-- Sección 3: filtros y productos -->
+  <div class="contenedor-principal">
+    <aside class="barra-lateral">
+      <div class="filtro-precio">
+        <h1>Precio</h1>
+        <div class="rango-precio">
+          <span>$0 - $100</span>
+          <input type="range" min="0" max="100" value="100">
+        </div>
+      </div>
+
+      <div class="filtro-color">
+        <h1>Color</h1>
+        <ul>
+          <li><label><input type="checkbox" checked> Negro</label></li>
+          <li><label><input type="checkbox" checked> Mate</label></li>
+          <li><label><input type="checkbox"> Plateado</label></li>
+        </ul>
+      </div>
+
+      <div class="filtro-tamano">
+        <h1>Tamaño</h1>
+        <ul>
+          <li><label><input type="checkbox" checked> Razer</label></li>
+          <li><label><input type="checkbox" checked> Logitech</label></li>
+          <li><label><input type="checkbox" checked> Otras</label></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="contenedor-productos">
+      <div class="barra-superior">
+        <input type="search" placeholder="Buscar">
+        <button>Buscar</button>
+        <div class="botones-orden">
+          <button class="activo">Nueva</button>
+          <button>Mayor Precio</button>
+          <button>Menor Precio</button>
+          <button>Populares</button>
+        </div>
+        </div>
+
+        <div class="product-grid">
+        <div class="product">
+          <img src="img/Imagen de WhatsApp 2025-04-05 a las 23.38.47_f58939ea.jpg" alt="Amazon Basics Teclado">
+          <p>Amazon Basics Teclado</p>
+          <span> $17</span>
+        </div>
+        <div class="product">
+          <img src="img/Imagen de WhatsApp 2025-04-05 a las 23.38.47_2ec2e533.jpg" alt="Coarsair k70 RGB PRO">
+          <p>Coarsair k70 RGB PRO</p>
+          <span>$100</span>
+        </div>
+        <div class="product">
+          <img src="img\Imagen de WhatsApp 2025-04-05 a las 23.38.48_42d50fff.jpg" alt="Rii RK 100+">
+          <p>vRazer DeathAdder E</p>
+          <span>$15</span>
+        </div>
+        <div class="product">
+          <img src="img\Imagen de WhatsApp 2025-04-05 a las 23.43.50_45a6ba44.jpg" alt="Steel Series Apex Pro">
+          <p>Steel Series Apex Pro</p>
+          <span> $180</span>
+        </div>
+        <div class="product">
+          <img src="img\Imagen de WhatsApp 2025-04-05 a las 23.38.48_2359b2f0.jpg" alt="Teclado Genius GX Scorpion K220">
+          <p>Teclado Genius GX Scorpion K220</p>
+          <span> $58900 </span>
+        </div>
+        <div class="product">
+            <img src="img\Imagen de WhatsApp 2025-04-05 a las 23.43.51_8b61b15c.jpg" alt="Razer Ornata V3 X">
+            <p>Razer Ornata V3 X</p>
+            <span> $35</span>
+        </div>
+        <div class="product">
+            <img src="img\Imagen de WhatsApp 2025-04-05 a las 23.38.48_5e4c193a.jpg" alt="TECLADO GAMER REDRAGON FIZZ PRO ROSA K616">
+            <p>TECLADO GAMER REDRAGON FIZZ PRO ROSA K616</p>
+            <span> $$287</span>
+        </div>
+        <div class="product">
+            <img src="img\Imagen de WhatsApp 2025-04-05 a las 23.38.48_5c0a0a7d.jpg" alt="ASUA ROG FALCHION RX">
+            <p>ASUA ROG FALCHION RX </p>
+            <span> $140</span>
+        </div>
+        </div>
+    </main>
+  </div>
+
+</body>
+</html>

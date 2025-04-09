@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECZD - Tienda de Tecnología</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="P_Mos.css">
+</head>
+<body class="body1">
+  
+  <!-- Header con logo, búsqueda, registro y usuario/carrito -->
+<div class="header">
+    <div class="logo">
+      <img src="img/Logo_ECZD.png" alt="logo">
+    </div>
+
+    <div class="search-bar">
+      <i class="fa-solid fa-bars"></i>
+      <input type="text" placeholder="Buscar">
+      <i class="fa-solid fa-search"></i>
+    </div>
+
+    <a href="http://localhost/proyecto_edwin/Sesion.php">
+      <button class="register-btn">Iniciar Sesión</button>
+    </a>
+
+    <div class="icons"> 
+        <a href="perfil.html"><i class="fa-solid fa-user"></i></a>
+        <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+</div>
+
+  <!-- Sección 2: navbar -->
+  <section class="section_2">
+    <header class="header1">
+      <nav class="navbar">
+        <a href="http://localhost/Proyecto_edwin/">INICIO</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_Lapt.html#">LAPTOPS</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_Gam.html#">GAMER</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_Tecl.html">TECLADOS</a>
+        <a href="http://localhost/proyecto_edwin/Pagina_Monit.html">MONITORES</a>
+      </nav>
+    </header>
+  </section>
+
+  <!-- Sección 3: filtros y productos -->
+  <div class="contenedor-principal">
+    <aside class="barra-lateral">
+      <div class="filtro-precio">
+        <h1>Precio</h1>
+        <div class="rango-precio">
+          <span>$0 - $100</span>
+          <input type="range" min="0" max="100" value="100">
+        </div>
+      </div>
+
+      <div class="filtro-color">
+        <h1>Color</h1>
+        <ul>
+          <li><label><input type="checkbox" checked> Negro</label></li>
+          <li><label><input type="checkbox" checked> Mate</label></li>
+          <li><label><input type="checkbox"> Plateado</label></li>
+        </ul>
+      </div>
+
+      <div class="filtro-tamano">
+        <h1>Tamaño</h1>
+        <ul>
+          <li><label><input type="checkbox" checked> Razer</label></li>
+          <li><label><input type="checkbox" checked> Logitech</label></li>
+          <li><label><input type="checkbox" checked> Otras</label></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="contenedor-productos">
+      <div class="barra-superior">
+        <input type="search" placeholder="Buscar">
+        <button>Buscar</button>
+        <div class="botones-orden">
+          <button class="activo">Nueva</button>
+          <button>Mayor Precio</button>
+          <button>Menor Precio</button>
+          <button>Populares</button>
+        </div>
+        </div>
+
+        <div class="product-grid">
+        <div class="product">
+          <img src="img/Imagen de WhatsApp 2025-04-05 a las 20.03.53_d852db85.jpg" alt="G 305 LIGHTSPEED">
+          <p>G 305 LIGHTSPEED</p>
+          <span> $30</span>
+        </div>
+        <div class="product">
+          <img src="img/Imagen de WhatsApp 2025-04-05 a las 20.05.28_f796e425.jpg" alt="Amazon Básics">
+          <p>Amazon Básics</p>
+          <span>$12</span>
+        </div>
+        <div class="product">
+          <img src="img/Imagen de WhatsApp 2025-04-05 a las 20.06.39_b6438f34.jpg" alt="Razer DeathAdder E">
+          <p>vRazer DeathAdder E</p>
+          <span>$25</span>
+        </div>
+        <div class="product">
+          <img src="img/Imagen de WhatsApp 2025-04-05 a las 20.07.42_dd0d2bae.jpg" alt="Razer Basilisk V3">
+          <p>Razer Basilisk V3</p>
+          <span> $47</span>
+        </div>
+        <div class="product">
+          <img src="img/Imagen de WhatsApp 2025-04-05 a las 20.07.42_dd0d2bae.jpg" alt="ASUS ROG Harpe ">
+          <p>Corsair SCIMITAR RGB(2024)</p>
+          <span> $55</span>
+        </div>
+        <div class="product">
+            <img src="img/Imagen de WhatsApp 2025-04-05 a las 20.08.35_4577478b.jpg" alt="Thermaltake LCGS Quartz">
+            <p>ASUS ROG Harpe </p>
+            <span> $100</span>
+        </div>
+        <div class="product">
+            <img src="img/Imagen de WhatsApp 2025-04-05 a las 20.15.47_f64a83ea.jpg" alt="Logitech G Series lightspeed G305">
+            <p>Logitech G Series lightspeed G305</p>
+            <span> $1500</span>
+        </div>
+        <div class="product">
+            <img src="img/Imagen de WhatsApp 2025-04-05 a las 20.19.49_b8de9bb4.jpg" alt="Mouse Gamer Rgb 12000dpi Programable Havit Ms961">
+            <p>Mouse Gamer Rgb 12000dpi Programable Havit Ms961</p>
+            <span> $119</span>
+        </div>
+        </div>
+    </main>
+  </div>
+
+</body>
+</html>

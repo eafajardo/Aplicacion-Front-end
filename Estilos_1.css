@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor del header */
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 200px; /* Ajusta la altura del header según lo que necesites */
+    background: white;
+    justify-content: space-between;
+    padding: 10px 40px; /* Ajusta el padding para centrar mejor */
+}
+
+
+.logo {
+    height: 200px; /* Ajusta este valor para que el logo no sea demasiado grande */
+    width: auto; /* Mantiene la proporción original de la imagen */
+    max-height: 100%; /* Evita que sobrepase la barra */
+    display: flex;
+}
+
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #ece6f2;
+    padding: 15px 20px; /* Aumento del tamaño */
+    border-radius: 50px;
+    width: 400px; /* Más ancho */
+    justify-content: center;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    flex-grow: 1;
+    font-size: 28px; /* Texto más grande */
+}
+
+.search-bar i {
+    color: #333;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+/* Botón de registro */
+.register-btn {
+    background: #751b36;
+    color: white;
+    border: none;
+    padding: 12px 45px; /* Más grande */
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 24px; /* Texto más grande */
+    justify-content: center;
+}
+
+.register-btn:hover {
+    background: #5a1529;
+}
+
+/* Contenedor de iconos */
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre los iconos */
+    justify-content: flex-end;
+}
+
+/* Ícono de usuario */
+.fa-user {
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Ícono de carrito */
+.fa-cart-shopping {
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+}
+
+
+/*SECCION DE 2*/
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #020101;
+    padding: 20px 20px;
+}
+
+
+.navbar a:hover {
+    background: #2b18d3;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    width: 100%; /* Ocupa todo el ancho */
+    background: black; /* Asegura que el fondo se mantenga */
+    padding: 10px 0; /* Espaciado superior e inferior */
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    border: 2px solid white; /* Borde blanco alrededor de cada enlace */
+    margin: 5px; /* Espaciado entre los elementos */
+    border-radius: 5px; /* Esquinas redondeadas */
+}
+
+
+/* SECCION 3 */
+
+
+
+/* Estilos para centrar y mejorar la presentación */
+.about {
+    text-align: center; /* Centra el texto */
+    font-family: Arial, sans-serif; /* Usa una fuente limpia y legible */
+    font-size: 28px; /* Tamaño adecuado del texto */
+    line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+    max-width: 1000px; /* Limita el ancho del contenido */
+    margin: 50px auto; /* Centra el contenido horizontalmente */
+}
+
+/* Estilos para los títulos (Visión y Misión) */
+.about h2 {
+    margin-top: 20px; /* Espaciado arriba de los títulos */
+    font-size: 38px; /* Tamaño más grande para destacar */
+    font-weight: bold; /* Hace los títulos más notorios */
+}
+
+
