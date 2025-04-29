@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECZD - Tienda de Tecnología</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="P_Monit.css">
+</head>
+<body class="body1">
+  
+  <!-- Header con logo, búsqueda, registro y usuario/carrito -->
+<div class="header">
+    <div class="logo">
+      <img src="img/Logo_ECZD.png" alt="logo">
+    </div>
+
+    <div class="search-bar">
+      <i class="fa-solid fa-bars"></i>
+      <input type="text" placeholder="Buscar">
+      <i class="fa-solid fa-search"></i>
+    </div>
+
+    <a href="http://localhost/proyecto_edwin/Sesion.php">
+      <button class="register-btn">Iniciar Sesión</button>
+    </a>
+
+    <div class="icons"> 
+        <a href="perfil.html"><i class="fa-solid fa-user"></i></a>
+        <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+</div>
+
+</div>
+
+    <section class="section_2">
+        <header class="header1">
+
+            <nav class="navbar">
+                <a href="http://localhost/proyecto_edwin/Pagina_Lapt.html">LAPTOPS</a>
+                <a href="http://localhost/proyecto_edwin/Pagina_Gam.html">GAMER</a>
+                <a href="http://localhost/proyecto_edwin/Pagina_mos.html">MOUSE</a>
+                <a href="http://localhost/proyecto_edwin/Pagina_Tecl.html">TECLADOS</a>
+               
+            </nav>
+        </header>
+    </section>
+
+      <!-- Sección 3: filtros y productos -->
+  <div class="contenedor-principal">
+    <aside class="barra-lateral">
+      <div class="filtro-precio">
+        <h1>Precio</h1>
+        <div class="rango-precio">
+          <span>$0 - $100</span>
+          <input type="range" min="0" max="100" value="100">
+        </div>
+      </div>
+
+      <div class="filtro-color">
+        <h1>Color</h1>
+        <ul>
+          <li><label><input type="checkbox" checked> Negro</label></li>
+          <li><label><input type="checkbox" checked> Mate</label></li>
+          <li><label><input type="checkbox"> Plateado</label></li>
+        </ul>
+      </div>
+
+      <div class="filtro-tamano">
+        <h1>Tamaño</h1>
+        <ul>
+          <li><label><input type="checkbox" checked> 22 </label></li>
+          <li><label><input type="checkbox" checked> 24 </label></li>
+          <li><label><input type="checkbox" checked> 27 </label></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="contenedor-productos">
+      <div class="barra-superior">
+        <input type="search" placeholder="Buscar">
+        <button>Buscar</button>
+        <div class="botones-orden">
+          <button class="activo">Nueva</button>
+          <button>Mayor Precio</button>
+          <button>Menor Precio</button>
+          <button>Populares</button>
+        </div>
+        </div>
+
+        <div class="product-grid">
+        <div class="product">
+          <img src="img/MONI 1.jpg" alt="PHILIIPS 221V8LB">
+          <p>PHILIIPS 221V8LB</p>
+          <span> $70</span>
+        </div>
+        <div class="product">
+          <img src="img/MINI 2.jpg" alt="Sceptre - Monitor curvo">
+          <p>Sceptre - Monitor curvo</p>
+          <span>$100</span>
+        </div>
+        <div class="product">
+          <img src="img/MONI 3.jpeg" alt="Samsung Monitor">
+          <p>Samsung Monitor</p>
+          <span>$90</span>
+        </div>
+        <div class="product">
+          <img src="img/MONI 4.jpg" alt="Sceptre Monitor curvo">
+          <p>Sceptre Monitor curvo</p>
+          <span> $150</span>
+        </div>
+        <div class="product">
+          <img src="img/MONI 5.jpg" alt="Acer Nitro 27">
+          <p>Acer Nitro 27</p>
+          <span> $200 </span>
+        </div>
+        <div class="product">
+            <img src="img/MONI 6.jpg" alt="LG 34WP60C-B">
+            <p>LG 34WP60C-B</p>
+            <span> $234</span>
+        </div>
+        <div class="product">
+            <img src="img/MONI 7.webp" alt=" Monitor KALLEY 24">
+            <p> Monitor KALLEY 24</p>
+            <span> $409</span>
+        </div>
+        <div class="product">
+            <img src="img/MONI 8.webp" alt="TV KALLEY 32">
+            <p> TV KALLEY 32 </p>
+            <span> $569</span>
+        </div>
+        </div>
+    </main>
+  </div>
+
+</body>
+</html>
